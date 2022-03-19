@@ -1,0 +1,33 @@
+.table{
+    width: 100%;
+    border-spacing: 0 .5em;
+   thead{
+       color: #566376;
+       font-weight: 200;
+   }
+    tr{ 
+        
+        td{
+            padding: 10px;
+            border-bottom: 1px solid #DBDBDB;
+            border-top:1px solid #DBDBDB;
+            box-sizing: border-box  ;
+            margin: 4rem;
+            
+        }
+
+        .first{
+            border-left: 1px solid #DBDBDB;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+
+        .last{
+            border-right: 1px solid #DBDBDB;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    }
+    
+}
+

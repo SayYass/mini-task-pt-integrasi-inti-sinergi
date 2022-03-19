@@ -1,0 +1,52 @@
+.warning{
+    display: none;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    width: 25%;
+    top: 1rem;
+    background-color: #FFECE8;
+    padding:.5rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+    .warning-icon{
+        cursor: pointer;
+
+        &:hover{
+            color: #EE5C5C;
+        }
+    }
+    .warning-detail{
+        text-align: left;
+        width: 60%;
+        color: #172B4D;
+
+        .warning-title{
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: .5rem;
+        }
+
+        p{
+            font-size: .8rem;
+            margin-bottom: .5rem;
+        }
+
+        .coba-lagi{
+            font-size: .8rem;
+            color: #EE5C5C;
+            cursor: pointer;
+        }
+    }
+
+    .close-button{
+        cursor: pointer;
+
+        &:hover{
+            color: #EE5C5C;
+        }
+    }
+
+  
+}

@@ -1,0 +1,116 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+  .name {
+    width: 100%;
+    justify-content: left;
+
+    label {
+      display: block;
+      text-align: left;
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #000;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      padding: 1rem 1rem;
+      box-sizing: border-box;
+      font-size: 1rem;
+      color: #000;
+      border-radius: 10px;
+      height: 1.5rem;
+    }
+  }
+
+  .category {
+    width: 100%;
+    justify-content: left;
+    margin: 1rem 0;
+    label {
+      display: block;
+      text-align: left;
+      width: 100%;
+      padding: 0.3rem;
+      margin: 0;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #000;
+    }
+
+    select {
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      border-radius: 10px;
+      font-size: 0.8rem;
+      color: #000;
+    }
+
+    option {
+      display: block;
+      width: 100%;
+      padding: 0.5rem 0.3rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      color: #000;
+      margin-top: 1rem;
+    }
+  }
+
+  .availibility {
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+
+    .title-label {
+      display: block;
+      text-align: left;
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .radio-container {
+      display: flex;
+      width: 100%;
+      font-size: 1rem;
+      flex-direction: row;
+      justify-content: left;
+      color: #000;
+
+      label{
+         margin-right:3rem;
+      }
+    }
+  }
+
+  .submit {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    margin-top: 1rem;
+    input {
+      display: block;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #fff;
+      background-color: #295757;
+      text-decoration: none;
+    }
+  }
+}
